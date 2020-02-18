@@ -1,0 +1,11 @@
+default: &default
+  adapter: oracle_enhanced
+  host: localhost
+  username: standalone
+  password: password
+  port: 1521
+  database: ORCLCDB
+  pool: 40
+
+development:
+  <<: *default
